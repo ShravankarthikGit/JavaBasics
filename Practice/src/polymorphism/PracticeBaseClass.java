@@ -17,7 +17,7 @@ public class PracticeBaseClass {
 		System.out.println("Base Class testMethodOne result" + " " + d);
 	}
 	
-	// Overriding method testMethodOne with 4 input parameters
+	// Overloading method testMethodOne with 4 input parameters
 	public void  testMethodOne(int a, int  b, int c, int d) {
 		int e = a * b * c * d;
 		System.out.println("Base Class testMethodOne result" + " " + e);
