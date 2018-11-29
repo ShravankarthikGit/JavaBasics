@@ -11,13 +11,13 @@ public class Package2PublicClass2 {
 		testObj.PublicMethod();
 		
 		// Below line of code will throw compilation error as Private method is not accessible outside package accessModifiersPackage1
-		// testObj.PrivateMethod();
+		//testObj.PrivateMethod();
 		
 		//Call default method from Class in different package - Below line of code will throw compilation error
-		// testObj.DefaultMethod();
+		//testObj.DefaultMethod();
 		
 		//Call protected method from Class in different package - Below line of code will throw compilation error
-		// testObj.ProtectedMethod();
+		//testObj.ProtectedMethod();
 		
 		//Get variables from class in different package
 		System.out.println(testObj.PublicVariable);

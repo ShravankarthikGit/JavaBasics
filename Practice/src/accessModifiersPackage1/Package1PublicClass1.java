@@ -2,6 +2,9 @@ package accessModifiersPackage1;
 
 public class Package1PublicClass1 {
 
+	//Helpful links
+	// https://www.javatpoint.com/access-modifiers
+	// http://tutorials.jenkov.com/java/access-modifiers.html
 	
 	//Variables
 	public int PublicVariable = 1;
