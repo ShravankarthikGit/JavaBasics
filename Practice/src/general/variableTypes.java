@@ -1,7 +1,5 @@
 package general;
 
-
-
 public class variableTypes {
 	//Below integer variable definition will throw compilation error as "out of range" (range of integer '-2,147,483,648 to 2,147,483, 647' == 2^31 to 2^31-1)
 	//static int integerVariable = 2147483648;
