@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
+<suite name="SampleTestSuite">
 	<test thread-count="5" name="Test">
+	<parameter name = "browser" value="chrome"/> 
+<!-- 	<parameter name = "browser" value="InternerExplorer"/>  -->
 		<classes>
-			<class name="seleniumFirstTest.TestNGOpenBrowserTest">
+			<class name="seleniumBasics.TestNGOpenBrowserTest">
 				<methods>
-					<include name="testOpenBrowser" />
+				<!-- 	<include name="testOpenBrowser" /> -->
 					<!-- <exclude name="testOpenBrowser2" /> -->
 				</methods>
 			</class>
