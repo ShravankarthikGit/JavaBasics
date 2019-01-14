@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-01-14T17:06:36Z" name="Suite" finished-at="2019-01-14T17:06:51Z" duration-ms="15205">
+    <groups>
+    </groups>
+    <test started-at="2019-01-14T17:06:36Z" name="Test" finished-at="2019-01-14T17:06:51Z" duration-ms="15205">
+      <class name="seleniumFirstTest.TestNGOpenBrowserTest">
+        <test-method is-config="true" signature="initializeWebDriver()[pri:0, instance:seleniumFirstTest.TestNGOpenBrowserTest@1ebd319f]" started-at="2019-01-14T17:06:36Z" name="initializeWebDriver" finished-at="2019-01-14T17:06:39Z" duration-ms="3293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initializeWebDriver -->
+        <test-method signature="testOpenBrowser()[pri:0, instance:seleniumFirstTest.TestNGOpenBrowserTest@1ebd319f]" started-at="2019-01-14T17:06:39Z" name="testOpenBrowser" finished-at="2019-01-14T17:06:50Z" duration-ms="11010" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenBrowser -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:seleniumFirstTest.TestNGOpenBrowserTest@1ebd319f]" started-at="2019-01-14T17:06:50Z" name="closeBrowser" finished-at="2019-01-14T17:06:51Z" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- seleniumFirstTest.TestNGOpenBrowserTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
