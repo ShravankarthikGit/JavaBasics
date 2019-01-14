@@ -1,5 +1,7 @@
 package encapsulation;
 
+
+
 public class ImplementEncapsulatedClass {
 
 	public static void main(String[] args) {
